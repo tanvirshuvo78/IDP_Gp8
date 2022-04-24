@@ -1,0 +1,68 @@
+ .u-section-1 {
+  background-image: url("images/1IsXQYm-camouflage-desktop-wallpaper.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 628px;
+}
+
+.login-form {
+  margin: 3rem auto;
+   display: flex;
+   flex-direction: column;
+   width: 30%;
+   color: white;
+
+
+}
+.login-form * {
+  margin: .5rem 0;
+}
+
+label {
+  text-shadow: 1px 1px black;
+}
+
+#email, #pass {
+   border: 2px solid rgb(226, 223, 223);
+   color: white;
+   font-size: .8em;
+   padding:  .5rem 1rem;
+   padding-left: .3rem;
+   background: none;
+   border-radius: 1.5em;
+}
+
+#submit-btn {
+  background: rgb(74, 74, 252);
+  border: none;
+  margin: 1rem 0;
+  cursor: pointer;
+  border-radius: 1.5em;
+  padding: .5em 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 518px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 397px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 298px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 188px;
+  }
+}
